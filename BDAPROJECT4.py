@@ -134,4 +134,4 @@ layout = go.Layout(
         )
 )
 fig = go.Figure(data=trace, layout=layout)
-py.offline.iplot(fig)
+fig.show()
