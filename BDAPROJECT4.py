@@ -10,6 +10,8 @@ import seaborn as sns # Seaborn (version : 0.11.1)
 from sklearn.preprocessing import MinMaxScaler
 from sklearn.metrics import silhouette_samples, silhouette_score
 from yellowbrick.cluster import KElbowVisualizer
+import plotly as py
+import plotly.graph_objs as go
 
 #ignore warnings
 import warnings
